@@ -7,7 +7,7 @@ ipAddress = input("Target IP Address: ")
 
 slines = ["system check -- passed", "launch protocol tcp_8005", "attempt winver check -- passed", "reorder required packets -- complete", "intcheck passed", "waiting for response from 192.168.0.102", "host shell32 error", "prepare program found at C:\hpswsetup\sp115284\setup.exe", "perform handshake with target host"]
 
-flines = ["cmd_check1","cmd_check2", "cmd_check42", "cmd_check9", "cmd_check13", "cmd_check5", "cmd_check44", "cmd_check33", "cmd_check15", "cmd_check63", "cmd_check0", "mac_address_error -- autoresolve", "prompt readout void", "error at C:\ProgramData\regid.1991-06.com.microsoft\regid.1991-06.com.microsoft_Windows-10-Home.swidtag", "intel process test validated", "varied response length timeout"]
+flines = ["cmd_check1","cmd_check2", "cmd_check42", "cmd_check9", "cmd_check13", "cmd_check5", "cmd_check44", "cmd_check33", "cmd_check15", "cmd_check63", "cmd_check0", "mac_address_error -- autoresolve", "prompt readout void", "error at C:\ProgramData\regid.1991-06.com.microsoft\regid.1991-06.com.microsoft_Windows-10-Home.swidtag", "intel process test validated", "varied response length timeout", "firewall bypassed"]
 
 print("\n")
 for i in range(42):
